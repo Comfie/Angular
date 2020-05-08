@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-essentials';
+  rootName = 'Nyatsine';
+  // rootItems = ['Apples', 'Banana', 'Cherries'];
+
+  onNameChanged(newName) {
+   this.rootName = newName;
+   }
+ /*  onItemWasAdded(newItem){
+    this.rootItems.push(newItem);
+    console.log(this.rootItems);
+  } */
 }

@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>First Excercise</h1>
+<input class="form-control" type="text" [(ngModel)]="loadState">
+<p>Hie there Mr {{ surname }}, how was the {{ meal }}</p>
+<p>Loading state {{ loadState | uppercase }} </p>
+<p [textContent]="loadState"></p>
+<div >
+<button class="btn btn-info" (click)="onClickChange()"> Change Loading State </button>
+</div>
+</div>
